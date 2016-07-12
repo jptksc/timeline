@@ -1,0 +1,231 @@
+
+/***********************************************************************************
+  
+Typography
+  
+************************************************************************************/
+
+@media (max-width: 380px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/***********************************************************************************
+  
+Universal Containers
+  
+************************************************************************************/
+
+@media (max-width: 768px) {
+    .content {
+        width: -webkit-calc(100% - 100px);
+        width: -moz-calc(100% - 100px);
+        width: calc(100% - 100px);
+    }
+}
+
+/***********************************************************************************
+  
+The Timeline
+  
+************************************************************************************/
+
+@media (max-width: 580px) {
+    #timeline article .content .copy {
+        padding-left: 0;
+    }
+    
+    #timeline article .content .copy:before,
+    #timeline article .content .copy:after,
+    #timeline article .content .copy .date,
+    #timeline article .content .copy .date:after,
+    #timeline article .content .copy .type,
+    #timeline article .content .copy .type:after {
+        display: none;
+    }
+}
+
+@media (max-width: 380px) {
+
+    #timeline article .content .copy {
+        padding-top: 50px;
+        padding-bottom: 28px;
+    }
+    
+    #timeline article:last-of-type .content .copy {
+        padding-bottom: 83px;
+    }
+    
+    /* Post Images for Photos & Videos */
+    
+    #timeline article .content .copy a.photo,
+    #timeline article .content .copy a.video  {
+        margin-bottom: 37px;
+    }
+    
+    /* The Play Button for Videos */
+    
+    #timeline article .content .copy a.video:after {
+        border-width: 16px 0 16px 26px;
+    }
+    
+    /* Post Typography */
+    
+    #timeline article .content .copy h2 {
+        font-size: 24px;
+        
+        margin: 0 0 17px;
+    }
+}
+
+/***********************************************************************************
+  
+Footer Bar
+  
+************************************************************************************/
+
+@media (max-width: 768px) {
+    #footer blockquote strong,
+    #footer blockquote span {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    #footer nav {
+        margin-right: 20px;
+    }
+    
+    #footer nav a.icon {
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    #footer blockquote {
+       display: none;
+    }
+}
+
+@media (max-width: 380px) {
+    #footer {
+        line-height: 49px;
+        
+        height: 51px;
+    }
+    
+    #footer img {
+        height: 30px;
+    }
+    
+    #footer nav {
+        margin-right: 10px;
+    }
+    
+    #footer nav a {
+        margin-left: 10px;
+    }
+}
+
+/***********************************************************************************
+  
+Panels
+  
+************************************************************************************/
+
+@media (max-width: 768px) {
+    .panel.video .video {
+        width: -webkit-calc(100% - 100px);
+        width: -moz-calc(100% - 100px);
+        width: calc(100% - 100px);
+    }
+}
+
+@media (max-width: 600px) {
+    
+    /* Subscription Form */
+    
+    .panel .content form {
+        border-left: none;
+    }
+    
+    .panel .content form input[type="text"],
+    .panel .content form input[type="email"] {
+        width: 75%;
+        
+        margin: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    
+    /* Subscription Form */
+    
+    .panel .content form input[type="text"],
+    .panel .content form input[type="email"] {
+        width: 85%;
+    }
+}
+
+@media (max-width: 380px) {
+    .panel {
+        font-size: 14px;
+        
+        bottom: 50px;
+        
+        padding: 39px 0 22px;
+    }
+    
+    /* Close Button */
+    
+    .panel .close,
+    .panel .stop,
+    .panel .done {
+        font-size: 24px;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    /* Panel Content */
+    
+    .panel .content .signature {
+        width: 50px;
+    }
+    
+    /* Subscription Form */
+    
+    .panel .content form {
+        height: 40px;
+        
+        margin: 0 0 25px;
+    }
+    
+    .panel .content form input[type="text"],
+    .panel .content form input[type="email"] {
+        font-size: 14px;
+        
+        padding: 8px 0 12px 12px;
+    }
+    
+    .panel .content form .button {
+        font-size: 35px;
+        line-height: 35px;
+        
+        width: 40px;
+        height: 40px;
+        
+        margin-left: -21px;
+    }
+    
+    /* Social Panel */
+    
+    .panel.social a.link {
+        font-size: 28px;
+        
+        line-height: 150px;
+        
+        height: 150px;
+    }
+}

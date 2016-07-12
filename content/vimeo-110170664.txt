@@ -1,0 +1,5 @@
+A Vimeo Video by Jeff Sheldon
+
+20 March 2015
+
+Embedding videos with Timeline is really easy — all you need is the ID of the video you’re embedding and Timeline will do the rest for you – including automatically generating thumbnail images. Here’s a sample Vimeo video call “Iceland” by Jeff Sheldon. “Iceland is magical! There's no other way to describe it. My wife and I recently took a trip to Iceland and explored some incredible spots along the southern coast and around Reykjavik. I put together a little video to recap some of our trip, but nothing compares to experiencing it in person.”

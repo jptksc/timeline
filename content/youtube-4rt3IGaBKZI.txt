@@ -1,0 +1,5 @@
+Here’s a YouTube Video
+
+10 March 2015
+
+Of course you can embed YouTube videos with Timeline too. All you need is the ID of the video you’re embedding and Timeline will do the rest for you – including automatically generating the background and thumbnail images.
